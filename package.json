@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "publish": "resume publish",
-    "build": "wkhtmltopdf http://registry.jsonresume.org/howardroark resume.pdf"
+    "build": "wkhtmltopdf --viewport-size 1280x1024 --page-size Legal http://registry.jsonresume.org/howardroark resume.pdf"
   },
   "devDependencies": {
     "resume-cli": "^0.4.11"
