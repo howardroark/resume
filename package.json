@@ -5,10 +5,10 @@
     "build": "npm run build-html && npm run build-pdf && npm run build-png",
     "build-html": "resume export --theme flat-fork index.html",
     "build-pdf": "wkhtmltopdf --viewport-size 1280x1024 --page-size Legal index.html resume.pdf",
-    "build-png": "convert -density 300 -trim resume.pdf -quality 100 resume.png"
+    "build-png": "convert -density 300 -trim resume.pdf -quality 100 resume.png",
+    "deploy": "git push origin master:gh-pages"
   },
   "devDependencies": {
-    "jsonresume-theme-flatter": "^0.3.8",
     "resume-cli": "^0.4.11"
   }
 }
