@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Howard Roark",
-    "label": "Freelance Web Developer",
+    "label": "Full-stack Web Developer",
     "picture": "",
     "email": "howie@codingcoop.org",
     "phone": "646-681-2775",
@@ -23,7 +23,7 @@
   "work": [
     {
       "company": "Freelance",
-      "position": "Web Developer",
+      "position": "Full-stack Web Developer",
       "website": "",
       "startDate": "2007",
       "endDate": "Now",
