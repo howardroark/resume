@@ -1,0 +1,76 @@
+{
+  "basics": {
+    "name": "Howard Roark",
+    "label": "Freelance Web Developer",
+    "picture": "",
+    "email": "howie@codingcoop.org",
+    "phone": "646-681-2775",
+    "website": "https://github.com/howardroark",
+    "summary": "I am an experienced web developer with over 10 years experience.  I have worked on projects of all different sizes for companies large and small.  I really enjoy learning from new people and take pride in my work.",
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "howardroark",
+        "url": "https://github.com/howardroark"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "howardroark",
+        "url": "https://www.linkedin.com/in/howard-roark-943aa5115"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Freelance",
+      "position": "Web Developer",
+      "website": "",
+      "startDate": "2007",
+      "endDate": "Now",
+      "summary": "I understand the web \"stack\" from top to bottom and can use that knowledge to adapt to any problem.  I am comfortable working with old and new systems and always strive to make improvements wherever I can.  I am most comfortable in an agile setup and am able to prototype ideas quickly so that decisions can be made around them.",
+      "highlights": []
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Coding Coop",
+      "position": "Mentor",
+      "website": "",
+      "startDate": "2013",
+      "endDate": "Now",
+      "summary": "Offered mentorship through a coding coop program.",
+      "highlights": []
+    }
+  ],
+  "education": [],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML, CSS, Javascript",
+        "MVC, CMS, eCommerce",
+        "Node.js, PHP, Python"
+      ]
+    },
+    {
+      "name": "Web Services",
+      "level": "Master",
+      "keywords": [
+        "Linux, Config Management, VMs",
+        "Nginx, Apache, Docker",
+        "Mysql, MongoDB, Redis"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [],
+  "references": []
+}
