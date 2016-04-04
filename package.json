@@ -5,7 +5,7 @@
     "publish": "resume publish",
     "build": "npm run build-pdf && npm run build-png",
     "build-pdf": "wkhtmltopdf --viewport-size 1280x1024 --page-size Legal http://registry.jsonresume.org/howardroark resume.pdf",
-    "build-png": "convert -density 300 resume.pdf -quality 100 resume.png"
+    "build-png": "convert -density 300 -trim resume.pdf -quality 100 resume.png"
   },
   "devDependencies": {
     "resume-cli": "^0.4.11"
