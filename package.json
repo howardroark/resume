@@ -2,8 +2,8 @@
   "name": "resume",
   "version": "1.0.0",
   "scripts": {
-    "publish": "resume publish",
-    "build": "npm run build-pdf && npm run build-png",
+    "build": "npm run build-html && npm run build-pdf && npm run build-png",
+    "build-html": "resume export resume.html",
     "build-pdf": "wkhtmltopdf --viewport-size 1280x1024 --page-size Legal http://registry.jsonresume.org/howardroark resume.pdf",
     "build-png": "convert -density 300 -trim resume.pdf -quality 100 resume.png"
   },
