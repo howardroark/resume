@@ -6,7 +6,7 @@ First you will need [wkhtmltopdf](http://wkhtmltopdf.org/) (for PDF) and [imagem
 rest can be handled with NPM...
 
 ```
-npm install
+$ npm install
 ```
 
 #### Build
