@@ -2,7 +2,8 @@
 
 #### Install
 
-First you will need [wkhtmltopdf](http://wkhtmltopdf.org/) and [imagemagick](http://www.imagemagick.org/script/index.php).
+First you will need [wkhtmltopdf](http://wkhtmltopdf.org/) (for PDF) and [imagemagick](http://www.imagemagick.org/script/index.php) (for PNG). The
+rest can be handled with NPM...
 
 ```
 npm install
