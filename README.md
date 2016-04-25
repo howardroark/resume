@@ -26,7 +26,7 @@ $ npm run build
 
 ### Deploy
 
-Deploy your resume to **username**.github.io/resume.
+**username**.github.io/resume
 
 ```
 $ npm run deploy
