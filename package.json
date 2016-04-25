@@ -2,7 +2,7 @@
   "name": "resume",
   "version": "1.0.0",
   "scripts": {
-    "build": "npm run build-html && npm run build-pdf && npm run build-png && npm run build-index && npm run gh-corner && npm run deploy",
+    "build": "npm run build-html && npm run build-pdf && npm run build-png && npm run build-index && npm run gh-corner",
     "build-html": "resume export --theme flat-fork resume.html",
     "build-pdf": "./bin/wkhtmltopdf --viewport-size 1280x1024 --page-size A4 -T 0 -B 0 -L 0 -R 0 index.html resume.pdf",
     "build-png": "./bin/wkhtmltoimage --format png --width 800 index.html resume.png",
