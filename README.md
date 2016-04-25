@@ -5,8 +5,8 @@ and [wkhtmltopdf](http://wkhtmltopdf.org).
 
 <img align="right" width="500" src="https://raw.githubusercontent.com/howardroark/resume/master/resume.png">
 
-> Note: all binaries in the `bin` folder are for OSX. You may need to download your
-own at [wkhtmltopdf.org](http://wkhtmltopdf.org/downloads.html).
+> Note: all binaries in the `bin` folder are for OSX. 
+You may need to download an alternate [here](http://wkhtmltopdf.org/downloads.html).
 
 #### Edit
 
