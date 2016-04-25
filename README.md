@@ -1,7 +1,7 @@
 ### Template Instructions
 
 > Note: all binaries in the `bin` folder are for OSX. You may need to download your
-own at (wkhtmltopdf.org)[http://wkhtmltopdf.org/downloads.html].
+own at [wkhtmltopdf.org](http://wkhtmltopdf.org/downloads.html).
 
 #### Install
 
