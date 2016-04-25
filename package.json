@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "scripts": {
     "build": "npm run build-html && npm run build-pdf && npm run build-png",
-    "build-html": "resume export --theme flat-fork resume.html",
+    "build-html": "resume export --theme flat resume.html",
     "build-pdf": "./bin/wkhtmltopdf --viewport-size 1280x1024 --page-size A4 -T 0 -B 0 -L 0 -R 0 resume.html resume.pdf",
     "build-png": "./bin/wkhtmltoimage --format png --width 800 resume.html resume.png",
-    "build-index": "resume export --theme flat-fork index.html",
+    "build-index": "resume export --theme flat index.html",
     "gh-pages": "git checkout --orphan gh-pages && git rm -rf . && git add index.html && git commit -m 'deploy' && git push origin gh-pages -f && git checkout master && git branch -D gh-pages",
     "deploy": "npm run build-index && npm run gh-pages"
   },
