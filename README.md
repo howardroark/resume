@@ -10,7 +10,7 @@ You may need to download an alternate [here](http://wkhtmltopdf.org/downloads.ht
 
 #### Edit
 
-Clone with repo and enter your info into `resume.json`.
+Clone this and edit `resume.json`.
 
 #### Install
 
