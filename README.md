@@ -1,16 +1,18 @@
 ### Instructions
 
-#### Install
+> Note: all binaries in the `bin` folder are for OSX. You may need to download your
+own at (wkhtmltopdf.org)[http://wkhtmltopdf.org/downloads.html].
 
-First you will need [wkhtmltopdf](http://wkhtmltopdf.org/) (for PDF) and [imagemagick](http://www.imagemagick.org/script/index.php) (for PNG). The
-rest can be handled with NPM...
+#### Install
 
 ```
 $ npm install
 ```
 
 #### Build
+
 Edit resume.json and then run this...
+
 ```
 $ npm run build
 ```
