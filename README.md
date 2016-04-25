@@ -24,7 +24,7 @@ $ npm install
 $ npm run build
 ```
 
-### Deploy
+#### Deploy
 
 **username**.github.io/resume
 
